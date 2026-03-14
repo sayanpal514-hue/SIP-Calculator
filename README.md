@@ -1,8 +1,10 @@
-SIP Calculator
+SIP Calculator name as GrowthX
+
 A simple Systematic Investment Plan (SIP) Calculator built with HTML, CSS, and JavaScript. This project helps users estimate the future value of their monthly investments based on investment amount, expected return rate, and investment duration.
+
 Live Demo
 You can view the project here:
-https://your-username.github.io/repository-name
+https://sayanpal514-hue.github.io/SIP-Calculator
 
 Features
 Calculate SIP investment returns instantly
@@ -52,7 +54,9 @@ How to Run Locally
 Clone the repository
 Copy code
 
-git clone https://github.com/your-username/repository-name.git
+git clone - 
+https://sayanpal514-hue.github.io/SIP-Calculator.git
+
 Open the folder
 Copy code
 
@@ -65,13 +69,15 @@ Select branch main
 Choose /root
 Save
 Your site will be live at:
-Copy code
+Copy code-
 
-https://your-username.github.io/repository-name
+https://sayanpal514-hue.github.io/SIP-Calculator
+
 Future Improvements
 Add investment charts
 Add yearly breakdown
 Dark mode support
 Export results to PDF
 License
-This project is open source and available under the MIT License.
+This project is open source and available under the 
+MIT License.
