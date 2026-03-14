@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIP & Lumpsum Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GrowthX</h1>
+        
+        <div class="calculators">
+            
+            <div class="calculator">
+                <h2>SIP Calculator</h2>
+                <label>Monthly Investment (₹):</label>
+                <input type="number" id="sipAmount" placeholder="Enter amount">
+                <label>Duration (Years):</label>
+                <input type="number" id="sipYears" min="1" max="30" placeholder="1 - 30">
+                <label>Expected Annual Return (%):</label>
+                <input type="number" id="sipRate" min="1" max="30" placeholder="1 - 30">
+                <button onclick="calculateSIP()">Calculate SIP</button>
+                <p id="sipResult"></p>
+            </div>
+            
+            <div class="calculator">
+                <h2>Lumpsum Calculator</h2>
+                <label>Investment Amount (₹):</label>
+                <input type="number" id="lumpAmount" placeholder="Enter amount">
+                <label>Duration (Years):</label>
+                <input type="number" id="lumpYears" min="1" max="30" placeholder="1 - 30">
+                <label>Expected Annual Return (%):</label>
+                <input type="number" id="lumpRate" min="1" max="30" placeholder="1 - 30">
+                <button onclick="calculateLumpsum()">Calculate Lumpsum</button>
+                <p id="lumpResult"></p>
+            </div>
+
+            <div class="calculator revenue-calculator">
+                <h2>Total Revenue Summary 1</h2>
+                
+                <div class="chart-area">
+                    <div class="chart-container" id="revenueChart1">
+                        <div class="chart" data-invested-percent="0" data-return-percent="0">
+                            <span class="center-text">₹0<br>Total Value</span>
+                        </div>
+                    </div>
+
+                    <div class="chart-details">
+                        <p><span class="color-box invested-color"></span> Invested Amount: <span id="investedAmount1">₹ 0</span></p>
+                        <p><span class="color-box return-color"></span> Estimated Return: <span id="estimatedReturn1">₹ 0</span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="calculator revenue-calculator">
+                <h2>Total Revenue Summary 2</h2>
+                
+                <div class="chart-area">
+                    <div class="chart-container" id="revenueChart2">
+                        <div class="chart" data-invested-percent="00" data-return-percent="00">
+                            <span class="center-text">₹0<br>Total Value</span>
+                        </div>
+                    </div>
+                    
+                    <div class="chart-details">
+                        <p><span class="color-box invested-color"></span> Invested Amount: <span id="investedAmount2">₹ 0</span></p>
+                        <p><span class="color-box return-color"></span> Estimated Return: <span id="estimatedReturn2">₹ 0</span></p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
