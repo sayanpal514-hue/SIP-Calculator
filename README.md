@@ -54,8 +54,6 @@ How to Run Locally
 Clone the repository
 Copy code
 
-git clone - 
-https://sayanpal514-hue.github.io/SIP-Calculator.git
 
 Open the folder
 Copy code
@@ -71,7 +69,7 @@ Save
 Your site will be live at:
 Copy code-
 
-https://sayanpal514-hue.github.io/SIP-Calculator
+https://github.com/sayanpal514-hue/SIP-Calculator?tab=readme-ov-file
 
 Future Improvements
 Add investment charts
